@@ -87,17 +87,25 @@
         justify-content: center;
         background-attachment: fixed;
     }
- 
+    
     .imgg img {
         margin-right: 30px;
-        height: 200px;
-       
+        height: 300px;
     }
+    /* element.style {
+}
+@media screen and (max-width: 992px)
+.imgg img {
+    margin-right: 20px;
+    height: 200px;
+    width: 150px;
+} */
     
     @media screen and (max-width: 992px) {
         .imgg img {
-            margin-right: 30px;
-            height: 300px;
+            margin-right: 20px;
+            height: 150px;
+            width: 150px;
         }
     }
     
@@ -112,32 +120,36 @@
         color: white;
         font-size: larger;
         color: red !important;
-       
     }
     
     button a {
         color: rgb(147, 29, 29) !important;
     }
-    .lefoo{
+    
+    .lefoo {
         text-align: center;
         border: 2px solid wheat
     }
-    .lefoo p{
-        color:black;
+    
+    .lefoo p {
+        color: black;
     }
-    .footer{
-        padding-top:20px;
-        padding-left:70px;
-        background-color:black;
-        color:white;
-        border-bottom:2px solid red
+    
+    .footer {
+        padding-top: 20px;
+        padding-left: 70px;
+        background-color: black;
+        color: white;
+        border-bottom: 2px solid red
     }
-    hr{
-       background-color:white
-}
-.footer img{
-    align-items:center;
-    display:flex;
-    justify-content:center;
-    text-align: center;
-}
+    
+    hr {
+        background-color: white
+    }
+    
+    .footer img {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
